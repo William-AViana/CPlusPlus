@@ -24,6 +24,17 @@ int main() {
   unsigned int n3 = 1;
   long long int n4 = 1;
   cout << n1 + n2 + n3 + n4 << endl;
-  
+  cout << endl;
+
+  cout << "char " << sizeof(char) << " byte"<< endl;
+  cout << "char16_t " << sizeof(char16_t) << " bytes" << endl;
+  cout << "char32_t " << sizeof(char32_t) << " bytes" << endl;
+  cout << "wchar_t " << sizeof(wchar_t) << " bytes" << endl;
+  cout << "int " << sizeof(int) << " bytes"<< endl;
+  cout << "long int " << sizeof(long int) << " bytes"<< endl;
+  cout << "long long int " << sizeof(long long int) << " bytes"<< endl;
+  cout << "float " << sizeof(float) << " bytes"<< endl;
+  cout << "double " << sizeof(double) << " bytes"<< endl;
+
   return 0;
 }
