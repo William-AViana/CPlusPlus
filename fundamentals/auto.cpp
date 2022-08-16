@@ -7,7 +7,7 @@ int main() {
   auto b = 1.2;
   auto c = false;
 
-  cout << typeid(a).__is_pointer_p() << endl
+  cout << typeid(a).name() << endl
        << typeid(b).name() << endl
        << typeid(c).name() << endl;
 
