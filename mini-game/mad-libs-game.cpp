@@ -15,4 +15,6 @@ int main() {
   cout << "Roses are " << color << endl;
   cout << plural << " are blue" << endl;
   cout << "I love " << celebrity << endl;
+
+  return 0;
 }
