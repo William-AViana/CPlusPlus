@@ -26,6 +26,7 @@ int main() {
   Book book1("Harry Poter", "JK Rowling", 500);
   Book book2("The power", "Rhonda Byrne", 350);
   Book book3;
+  Book book4("Test", "Athor test", 200);
 
   cout << book3.title << endl;
   return 0;
