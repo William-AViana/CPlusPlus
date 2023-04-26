@@ -37,8 +37,4 @@ int main() {
 
   book1.information();
   return 0;
-<<<<<<< HEAD
-}
-=======
 };
->>>>>>> 1aaf5d5 (add a method for return informations books)
