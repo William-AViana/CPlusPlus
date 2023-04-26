@@ -7,7 +7,6 @@ class Book {
     string title;
     string author;
     int pages;
-    void information();
 
     Book() {
       title = "No title";
@@ -19,14 +18,7 @@ class Book {
       title = aTitle;
       author = aAuthor;
       pages = aPages;
-    };
 };
-
-void Book::information() {
-    cout << this->title <<endl;
-    cout << this->author <<endl;
-    cout << this->pages << endl;
-}
 
 int main() {
   
@@ -35,6 +27,10 @@ int main() {
   Book book3;
   Book book4("Test", "Athor test", 200);
 
-  book1.information();
+  cout << book3.title << endl;
   return 0;
+<<<<<<< HEAD
+}
+>>>>>>> 1aaf5d5 (add a method for return informations books)
+=======
 };
